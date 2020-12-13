@@ -219,3 +219,15 @@ collect them here, for anyone who cares about that kind of thing:
   respect to parsing especially, as the parser code is a little bit
   shaky right now.
 
+* *More options & default values* - Ideally, I would like dotfi
+  scripts to check environment variables for a default or "currently
+  selected" theme if none is explicitly provided, and it would also be
+  nice to configure an alternate base directory with an environment
+  variable - this would make it very easy to use this in combination
+  with GNU stow if you wanted to keep Stow's symlinks rather than
+  leaving real files all over the place - simply configure the base
+  directory to a different dir, run the dotfi scripts, and then stow
+  that dir into your home directory. I don't think I personally would
+  care enough to do that, but tools ought to be adjustable for other
+  use cases
+
