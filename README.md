@@ -154,21 +154,21 @@ collect them here, for anyone who cares about that kind of thing:
     ```
     $ tree ~/dotfiles
     ...
+    ├── mpd
+    │   └── .config
+    │       └── mpd
+    │           ├── mpd.conf
+    │           └── mpd.conf.template
+    ├── ncmpcpp
+    │   └── .ncmpcpp
+    │       ├── config
+    │       └── config.template
     ├── polybar
     │   └── .config
     │       └── polybar
     │           ├── config
     │           ├── config.bak
     │           └── config.template
-    ├── rofi
-    │   └── .config
-    │       └── rofi
-    │           ├── config.rasi
-    │           ├── config.rasi.template
-    │           ├── emoji-list.txt
-    │           ├── emojis.txt
-    │           ├── orange_theme.rasi
-    │           └── unicode.txt
     ...
     ```
 
