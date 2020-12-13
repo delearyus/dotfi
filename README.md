@@ -150,27 +150,28 @@ collect them here, for anyone who cares about that kind of thing:
    all my templating stuff), as described in 
    [this article](https://alexpearce.me/2016/02/managing-dotfiles-with-stow/),
    but that inevitably led to my dotfiles folder looking like this:
-   
-```
-$ tree ~/dotfiles
-...
-├── polybar
-│   └── .config
-│       └── polybar
-│           ├── config
-│           ├── config.bak
-│           └── config.template
-├── rofi
-│   └── .config
-│       └── rofi
-│           ├── config.rasi
-│           ├── config.rasi.template
-│           ├── emoji-list.txt
-│           ├── emojis.txt
-│           ├── orange_theme.rasi
-│           └── unicode.txt
-...
-```
+
+    ```
+    $ tree ~/dotfiles
+    ...
+    ├── polybar
+    │   └── .config
+    │       └── polybar
+    │           ├── config
+    │           ├── config.bak
+    │           └── config.template
+    ├── rofi
+    │   └── .config
+    │       └── rofi
+    │           ├── config.rasi
+    │           ├── config.rasi.template
+    │           ├── emoji-list.txt
+    │           ├── emojis.txt
+    │           ├── orange_theme.rasi
+    │           └── unicode.txt
+    ...
+    ```
+
     and I always kind of hated having to create this whole big nested
     file structure, and having to constnatly navigate through it just
     to tell my script where to put the files. As such, each dotfi
@@ -181,7 +182,7 @@ $ tree ~/dotfiles
     to similarly aid in location-agnosticism while preserving the
     convenience of being able to use relative paths.
     
-3. *dotfi files should function as valid markdown files*. This one is
+4. *dotfi files should function as valid markdown files*. This one is
    admittedly a little weird, but it came about because I noticed that
    my editor (nvim) provided syntax highlighting for fenced code
    blocks with filetype annotations. I think syntax highlighting is
